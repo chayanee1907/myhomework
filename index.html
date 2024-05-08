@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Homework</h1>
+        <p id="question">ข้อที่ 1 PIM ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+        <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+        <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+        <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+        <p id="result"></p><br>
+        <h1></h1>
+        <p id="question">ข้อที่ 2 คลังสินค้า eXta กระจายสินค้าประเภทใด ?</p>
+        <button class="button" onclick="checkAnswer2('a')">A) กลุ่มสินค้าอุปโภคบริโภค</button><br>
+        <button class="button" onclick="checkAnswer2('b')">B) กลุ่มสินค้ายา อาหารเสริม เวชสำอาง อุปกรณ์การแพทย์ และผลิตภัณฑ์เพื่อสุขภาพ</button><br>
+        <button class="button" onclick="checkAnswer2('c')">C) กลุ่มสินค้าเครื่องดื่ม</button><br>
+        <button class="button" onclick="checkAnswer2('d')">D) กลุ่มสินค้าเครื่องใช้ไฟฟ้า</button>
+        <p id="result2"></p><br>
+        <h2><p id="result3"></p></h2>
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
